@@ -1,0 +1,42 @@
+.day {
+  padding: 20px;
+  margin: 1px;
+}
+
+.day-name {
+  cursor: default;
+}
+
+.day-enabled {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.day-enabled:hover {
+  backdrop-filter: brightness(80%);
+}
+
+.day-disabled {
+  pointer-events: none;
+  backdrop-filter: brightness(95%);
+}
+
+.day-activated {
+  backdrop-filter: brightness(60%);
+}
+
+.day-activated:hover {
+  backdrop-filter: brightness(60%);
+}
+
+.day-over80 {
+  background-color: orangered;
+}
+
+.day-over40 {
+  background-color: yellow;
+}
+
+.day-under40 {
+  background-color: yellowgreen;
+}

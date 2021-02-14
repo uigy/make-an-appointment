@@ -1,0 +1,36 @@
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 5px;
+  grid-template-areas: "prev date next";
+  align-items: center;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.navItem-prev {
+  grid-area: prev;
+}
+
+.navItem-date {
+  font-weight: bold;
+  grid-area: date;
+}
+
+.navItem-next {
+  grid-area: next;
+}
+
+.navButton {
+  background-color: rgba(white, 0.45);
+  border: none;
+  padding: 15px 50px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.navButton:hover {
+  backdrop-filter: brightness(60%);
+}

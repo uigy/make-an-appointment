@@ -1,0 +1,51 @@
+.panel {
+  display: flex;
+  margin: 30px 5% 0 5%;
+  flex-flow: column;
+  text-align: center;
+  width: 90%;
+  height: fit-content;
+  align-content: center;
+  padding: 40px;
+  background-color: rgba(white, 0.7);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.appointmentDate {
+  margin-top: 30px;
+}
+
+.timeLabel {
+  padding-right: 5px;
+}
+
+.appointmentSelect {
+  font-size: 18px;
+  padding: 5px 10px;
+  border: none;
+}
+
+.appointmentButton {
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: rgba(white, 0.45);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.appointmentButton:hover {
+  backdrop-filter: brightness(60%);
+}
+
+.noAvailable {
+  line-height: 3em;
+}
+
+@media (min-width: 1229px) {
+  .panel {
+    width: 30%;
+    margin: 30px 5% 0 2.5%;
+  }
+}

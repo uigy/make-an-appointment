@@ -1,0 +1,11 @@
+.app {
+  flex-flow: column;
+  display: flex;
+}
+
+@media (min-width: 1229px) {
+  .app {
+    align-items: center;
+    flex-flow: row;
+  }
+}

@@ -1,0 +1,20 @@
+.calendar {
+  margin: 30px 5% 0 5%;
+  position: relative;
+  width: 90%;
+  height: fit-content;
+  background-color: rgba(white, 0.7);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+@media (min-width: 1229px) {
+  .calendar {
+    margin: 30px 2.5% 0 5%;
+    width: 55%;
+  }
+}
